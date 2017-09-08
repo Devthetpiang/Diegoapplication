@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/new_menu_group">
+        <item
+            android:id="@+id/action_new_meller"
+            android:orderInCategory="100"
+            android:title="@string/action_new_meller"
+            app:showAsAction="ifRoom" />
+    </group>
+    <group
+        android:id="@+id/sync_menu_group">
+        <item
+            android:id="@+id/action_sync_meller"
+            android:orderInCategory="100"
+            android:title="@string/action_sync_meller"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_dump_meller"
+            android:orderInCategory="100"
+            android:title="@string/action_dump_meller"
+            app:showAsAction="ifRoom" />
+    </group>
+
+</menu>

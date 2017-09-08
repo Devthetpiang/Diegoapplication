@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Maung Hla"
+        android:id="@+id/list_item_ref_name"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:paddingRight="20dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="097982351235"
+        android:id="@+id/list_item_ref_number"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:layout_below="@+id/list_item_ref_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Male"
+        android:id="@+id/list_item_ref_gender"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="textEnd"
+        android:paddingLeft="20dp"
+        android:layout_toRightOf="@+id/list_item_ref_name"
+        android:layout_toEndOf="@+id/list_item_ref_name"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="01/05/1989"
+        android:id="@+id/list_item_ref_dob"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/list_item_ref_gender"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/list_item_ref_number"
+        android:layout_toRightOf="@+id/list_item_ref_number"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon Apr 25 22:45:38 GMT+6:30 2016"
+        android:id="@+id/list_item_ref_created"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="@color/amber_900"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/list_item_ref_number"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13"
+        android:paddingStart="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="demo"
+        android:id="@+id/list_item_ref_referrer"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="@color/amber_900"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14"
+        android:paddingStart="2dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unsync"
+        android:id="@+id/list_item_ref_status"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="@color/amber_900"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView13"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:paddingStart="2dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="created:"
+        android:id="@+id/textView13"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="@color/amber_900"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/list_item_ref_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by:"
+        android:id="@+id/textView14"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="@color/amber_900"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/list_item_ref_created"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="status:"
+        android:id="@+id/textView15"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="@color/amber_900"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/list_item_ref_created"
+        android:layout_toRightOf="@+id/list_item_ref_referrer"
+        android:layout_toEndOf="@+id/list_item_ref_referrer"
+        android:paddingStart="10dp"
+        android:paddingBottom="5dp" />
+</RelativeLayout>

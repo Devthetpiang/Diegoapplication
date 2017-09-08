@@ -1,0 +1,34 @@
+Done - Mell recruiter login
+Done - Drawer activity
+Done - Display logged in mell id and mobile number in nav header
+Done - Display toolbar in new meller
+Done - Set title New Meller
+Done - Add buttons Cancel, Save on toolbar
+Done - Back button in toolbar
+Done - Put all the fileds in scrollview
+Done - Put all the questions in new Meller view
+Done - Fix back button bug
+Done - Fix view overlapping toolbar
+Done - Create Meller table in sqlite
+Done - Create referrals list item layout
+Done - Create referrals list view
+Done - Collect profile info and save to local db
+Done - Show a list of numbers that already called (name, number, gender, dob)
+Done - Load data from sqlite and display in list item
+Done - Finish new meller activity after save success
+Done - Fix dob display in referral list item
+Done - Log out menu, end dashboard and go back to login
+Done - Show a list of numbers to call that's assigned to this user
+Done - Create a new call, Dialler app
+Done - Add created_on, referrer fields to meller table
+Done - Call save -> update status of that number
+Done - Call cancel -> update status of that number
+Done - Don't update status if the number is null
+
+Auto refresh listview after adding new meller
+Auto update listview after call_list status update
+Delete referral
+Display total new numbers
+Display total recruits for current day by current loggedin user
+
+Synchronize the new users to mell db
